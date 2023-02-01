@@ -1,0 +1,8 @@
+
+x disttype general-gaussian
+x k 1530
+x std 0.5
+x N 50000
+x alpha 0.0005
+
+o 0 0.8510946376345163 0.8620250837770608

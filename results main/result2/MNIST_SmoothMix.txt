@@ -1,0 +1,22 @@
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on MNIST with SmoothMix: *****
+Smoothing distribution: generalized Gaussian with k = 380, sigma = 0.25
+DSRS Certification
+R   	 0.00	 0.25	 0.50	 0.75	
+RAcc	 100.0%	 98.5%	 97.4%	 95.7%	
+avg ACR = 0.851
+
+Smoothing distribution: generalized Gaussian with k = 380, sigma = 0.50
+DSRS Certification
+R   	 0.00	 0.25	 0.50	 0.75	 1.00	 1.25	 1.50	 1.75	
+RAcc	 100.0%	 97.5%	 96.5%	 94.5%	 91.7%	 86.4%	 74.9%	 45.2%	
+avg ACR = 1.534
+
+Smoothing distribution: generalized Gaussian with k = 380, sigma = 1.00
+DSRS Certification
+R   	 0.00	 0.25	 0.50	 0.75	 1.00	 1.25	 1.50	 1.75	 2.00	 2.25	 2.50	 2.75	 3.00	 3.25	 3.50	
+RAcc	 100.0%	 91.9%	 88.6%	 84.9%	 79.5%	 72.5%	 64.0%	 54.8%	 46.3%	 37.6%	 28.8%	 19.4%	 7.4%	 1.9%	 0.6%	
+avg ACR = 1.789
