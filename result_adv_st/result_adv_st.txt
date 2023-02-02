@@ -1,0 +1,49 @@
+>>>>> Table 2 and Table 7 - CIFAR10 - Gaussian Augmentation 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with Gaussian Augmentation: *****
+Smoothing distribution: generalized Gaussian with k = None, sigma = 0.25
+Neyman-Pearson certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  57.9%   47.4%   35.3%   25.8%   16.9%   10.8%   5.2%
+avg ACR = 0.582
+DSRS Certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  57.7%   47.1%   35.3%   25.6%   16.4%   10.3%   3.8%
+avg ACR = 0.571
+
+>>>>> Table 2 and Table 7 - CIFAR10 - Consistency 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with Consistency: *****
+Smoothing distribution: generalized Gaussian with k = None, sigma = 0.25
+Neyman-Pearson certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  56.0%   49.9%   43.3%   37.5%   31.4%   25.7%   18.8%
+avg ACR = 0.735
+DSRS Certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  55.9%   49.9%   43.0%   37.5%   31.3%   25.1%   17.2%
+avg ACR = 0.714
+
+>>>>> Table 2 and Table 7 - CIFAR10 - SmoothMix 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with SmoothMix: *****
+Smoothing distribution: generalized Gaussian with k = None, sigma = 0.25
+Neyman-Pearson certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  55.0%   50.0%   43.1%   36.2%   31.5%   26.6%   20.7%
+avg ACR = 0.733
+DSRS Certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  55.0%   49.9%   43.0%   36.1%   31.3%   25.9%   18.0%
+avg ACR = 0.710
+
+Done! All result saved to result/ folder
