@@ -1,0 +1,22 @@
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with SmoothMix: *****
+Smoothing distribution: generalized Gaussian with k = 1530, sigma = 0.25
+DSRS Certification
+R   	 0.00	 0.25	 0.50	 0.75	
+RAcc	 100.0%	 59.9%	 52.9%	 42.0%	
+avg ACR = 0.451
+
+Smoothing distribution: generalized Gaussian with k = 1530, sigma = 0.50
+DSRS Certification
+R   	 0.00	 0.25	 0.50	 0.75	 1.00	 1.25	 1.50	
+RAcc	 100.0%	 51.1%	 46.7%	 40.7%	 35.1%	 28.3%	 20.6%	
+avg ACR = 0.628
+
+Smoothing distribution: generalized Gaussian with k = 1530, sigma = 1.00
+DSRS Certification
+R   	 0.00	 0.25	 0.50	 0.75	 1.00	 1.25	 1.50	 1.75	 2.00	 2.25	 2.50	 2.75	 3.00	 3.25	
+RAcc	 100.0%	 44.9%	 39.5%	 33.9%	 29.9%	 25.3%	 22.0%	 18.2%	 15.1%	 12.8%	 10.1%	 6.7%	 3.6%	 1.0%	
+avg ACR = 0.707

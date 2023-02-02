@@ -1,0 +1,136 @@
+>>>>> Table 2 and Table 7 - CIFAR10 - Gaussian Augmentation 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with Gaussian Augmentation: *****
+Smoothing distribution: generalized Gaussian with k = 1530, sigma = 0.25
+DSRS Certification
+Sigma Q = [0.1]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.4%   40.1%   27.0%   16.2%   8.7%    3.3%
+avg ACR = 0.447
+Sigma Q = [0.2]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.5%   40.2%   27.5%   16.2%   8.7%    3.3%
+avg ACR = 0.447
+Sigma Q = [0.3]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.8%   40.6%   30.2%   19.9%   10.2%   3.3%
+avg ACR = 0.461
+Sigma Q = [0.4]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  52.0%   40.8%   30.7%   20.6%   12.3%   5.1%
+avg ACR = 0.472
+Sigma Q = [0.5]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.4%   40.1%   27.0%   16.2%   8.7%    3.3%
+avg ACR = 0.447
+Sigma Q = [0.6]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.7%   40.2%   27.3%   16.5%   8.9%    3.3%
+avg ACR = 0.447
+Sigma Q = [0.7]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.4%   40.2%   27.3%   16.2%   8.7%    3.3%
+avg ACR = 0.447
+Sigma Q = [0.8]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.4%   40.2%   27.1%   16.2%   8.7%    3.3%
+avg ACR = 0.447
+Sigma Q = [0.9]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.4%   40.1%   27.1%   16.2%   8.7%    3.3%
+avg ACR = 0.447
+
+>>>>> Table 2 and Table 7 - CIFAR10 - Consistency 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with Consistency: *****
+Smoothing distribution: generalized Gaussian with k = 1530, sigma = 0.25
+DSRS Certification
+Sigma Q = [0.1]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  50.7%   43.9%   37.6%   31.7%   24.3%   18.3%
+avg ACR = 0.590
+Sigma Q = [0.2]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  50.8%   44.1%   38.0%   31.8%   24.3%   18.3%
+avg ACR = 0.590
+Sigma Q = [0.3]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.0%   44.5%   38.8%   33.2%   26.6%   18.5%
+avg ACR = 0.598
+Sigma Q = [0.4]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  51.0%   44.6%   39.3%   33.9%   28.1%   21.2%
+avg ACR = 0.609
+Sigma Q = [0.5]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  50.7%   43.9%   37.6%   31.7%   24.3%   18.3%
+avg ACR = 0.590
+Sigma Q = [0.6]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  50.8%   43.9%   37.6%   32.0%   24.7%   18.5%
+avg ACR = 0.590
+Sigma Q = [0.7]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  50.7%   43.9%   37.6%   31.7%   24.4%   18.3%
+avg ACR = 0.590
+Sigma Q = [0.8]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  50.7%   43.9%   37.6%   31.7%   24.3%   18.3%
+avg ACR = 0.590
+Sigma Q = [0.9]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  50.7%   43.9%   37.6%   31.7%   24.3%   18.3%
+avg ACR = 0.590
+
+>>>>> Table 2 and Table 7 - CIFAR10 - SmoothMix 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with SmoothMix: *****
+Smoothing distribution: generalized Gaussian with k = 1530, sigma = 0.25
+DSRS Certification
+Sigma Q = [0.1]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  52.9%   46.8%   39.4%   33.6%   25.4%   17.6%
+avg ACR = 0.620
+Sigma Q = [0.2]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  53.0%   47.0%   39.7%   33.7%   25.4%   17.6%
+avg ACR = 0.620
+Sigma Q = [0.3]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  53.3%   47.2%   41.1%   36.2%   27.2%   17.6%
+avg ACR = 0.630
+Sigma Q = [0.4]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  53.4%   47.4%   41.2%   36.5%   29.0%   19.8%
+avg ACR = 0.642
+Sigma Q = [0.5]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  52.9%   46.8%   39.4%   33.6%   25.4%   17.6%
+avg ACR = 0.620
+Sigma Q = [0.6]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  53.0%   46.9%   39.6%   33.7%   25.4%   17.6%
+avg ACR = 0.620
+Sigma Q = [0.7]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  52.9%   46.9%   39.4%   33.6%   25.4%   17.6%
+avg ACR = 0.620
+Sigma Q = [0.8]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  52.9%   46.8%   39.4%   33.6%   25.4%   17.6%
+avg ACR = 0.620
+Sigma Q = [0.9]
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50
+RAcc     100.0%  52.9%   46.8%   39.4%   33.6%   25.4%   17.6%
+avg ACR = 0.620
+
+Done! All result saved to result/ folder

@@ -1,0 +1,17 @@
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with Consistency: *****
+Smoothing distribution: generalized Gaussian with k = 1533, sigma = 0.25 and N = 50000.0
+Smoothing distribution: generalized Gaussian with k = 1533, sigma = 0.50
+Neyman-Pearson certification
+R   	 0.00	 0.25	 0.50	 0.75	 1.00	 1.25	 1.50	
+RAcc	 100.0%	 50.8%	 42.8%	 35.9%	 28.8%	 20.8%	 13.7%	
+avg ACR = 0.554
+DSRS Certification
+R   	 0.00	 0.25	 0.50	 0.75	 1.00	 1.25	 1.50	
+RAcc	 100.0%	 50.8%	 44.3%	 38.0%	 30.9%	 23.3%	 15.2%	
+avg ACR = 0.561
+
+Smoothing distribution: generalized Gaussian with k = 1533, sigma = 1.00

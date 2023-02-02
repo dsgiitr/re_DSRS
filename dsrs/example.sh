@@ -1,0 +1,1 @@
+python train.py mnist mnist_43 --lr 0.01 --lr_step_size 50 --epochs 150 --noise 0.25 --num-noise-vec 1 --lbd 0 --k 380 --k-warmup 100
