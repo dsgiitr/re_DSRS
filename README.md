@@ -2,7 +2,7 @@
 
 [![BSD license](https://img.shields.io/badge/License-BSD-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-This repository is the official implementation of [[Re]Double Sampling Randomized Smoothing](<link to the paper>). 
+This repository is the official implementation of [Re]Double Sampling Randomized Smoothing. We aim to reproduce the results and validate the methods proposed in [Double Sampling Randomized Smoothing](https://arxiv.org/abs/2206.07912).
 
 Double sampling randomized smoothing (DSRS) is a novel robustness certification framework for randomized smoothing. 
 
@@ -10,7 +10,7 @@ Given an input instance and a model, robustness certification approach computes 
 
 For RS, the most widely-used certification approach is called Neyman-Pearson-based certfication. It leverages the probability of base model's predicting each class under the input noise to compute the certification.
 
-**In this work**, we propose to sample the base model's prediction statistics under **two different distributions**, and leverage the joint information to compute the certification. Since we leverage more information, our certification approach is guaranteed to be tighter (if not equal) than the most widely-used Neyman-Pearson-based approach.
+**In the paper Double Sampling Randomized Smoothing**, the authors propose to sample the base model's prediction statistics under **two different distributions**, and leverage the joint information to compute the certification. Since we leverage more information, our certification approach is guaranteed to be tighter (if not equal) than the most widely-used Neyman-Pearson-based approach.
 
 ![High-Level Illustration of DSRS](dsrs/readme_fig/overall_pipeline.png)
 
