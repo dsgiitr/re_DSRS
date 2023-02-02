@@ -1,0 +1,14 @@
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with Consistency: *****
+Neyman-Pearson certification
+R   	 0.00	 0.25	 0.50	 0.75	 1.00	 1.25	 1.50	 1.75	
+RAcc	 100.0%	 56.4%	 50.4%	 44.3%	 38.3%	 32.2%	 25.7%	 19.6%	
+avg ACR = 0.743
+DSRS Certification
+R   	 0.00	 0.25	 0.50	 0.75	 1.00	 1.25	 1.50	 1.75	
+RAcc	 100.0%	 56.4%	 50.3%	 44.2%	 38.1%	 32.0%	 25.3%	 17.6%	
+avg ACR = 0.720
+
