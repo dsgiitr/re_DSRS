@@ -83,4 +83,4 @@ Our experiments on Certification achieves the following results:
 
 ## Contributing
 
-You can reach us for any information about the ablation experiments and the results. The above code is locensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause) as the main paper.
+You can reach us for any information about the ablation experiments and the results. The above code is licensed under [BSD license](https://opensource.org/licenses/BSD-3-Clause) as the main paper.
