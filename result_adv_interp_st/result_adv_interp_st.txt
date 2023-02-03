@@ -1,0 +1,46 @@
+>>>>> Table 2 and Table 7 - CIFAR10 - Gaussian Augmentation 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with Gaussian Augmentation: *****
+Neyman-Pearson certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  58.8%   47.4%   35.6%   26.2%   17.7%   11.2%   6.1%
+avg ACR = 0.594
+DSRS Certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  58.6%   47.2%   35.4%   26.2%   17.6%   10.0%   4.4%
+avg ACR = 0.583
+
+>>>>> Table 2 and Table 7 - CIFAR10 - Consistency 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with Consistency: *****
+Neyman-Pearson certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  56.4%   50.4%   44.3%   38.3%   32.2%   25.7%   19.6%
+avg ACR = 0.743
+DSRS Certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  56.4%   50.3%   44.2%   38.1%   32.0%   25.3%   17.6%
+avg ACR = 0.720
+
+>>>>> Table 2 and Table 7 - CIFAR10 - SmoothMix 
+R: radius, RAcc: certified accuracy
+  Note: for R=0.00, we report the benign accuracy in the paper instead of 100.0%.
+        The benign accuracy can be obtained by running benign_sampler.py
+
+***** Results on CIFAR10 with SmoothMix: *****
+Neyman-Pearson certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  55.6%   50.0%   43.8%   37.9%   32.3%   25.9%   20.2%
+avg ACR = 0.742
+DSRS Certification
+R        0.00    0.25    0.50    0.75    1.00    1.25    1.50    1.75
+RAcc     100.0%  55.5%   49.7%   43.6%   37.8%   32.1%   25.2%   18.1%
+avg ACR = 0.719
+
+Done! All result saved to result/ folder
